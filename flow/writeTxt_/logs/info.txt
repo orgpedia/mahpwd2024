@@ -1,5 +1,5 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-98
+101
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 	202401131309359318.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmr
@@ -21,4 +21,86 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
 **** PIPEERROR IN 202401131309359318.pdf --> para 202401131309359318.pdf:Page_idx: 3 1 <-> [(0, 1), (0, 2)]
-#docs: 98 #processed: 1
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403131434532018.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal, dvotsurekhmr, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+	Tesseract on page: 12
+	Tesseract on page: 13
+	Tesseract on page: 14
+	Tesseract on page: 15
+	Tesseract on page: 16
+	Tesseract on page: 17
+	Tesseract on page: 18
+	Tesseract on page: 19
+	Tesseract on page: 20
+	Tesseract on page: 21
+	Tesseract on page: 22
+	Tesseract on page: 23
+	Tesseract on page: 24
+	Tesseract on page: 25
+	Tesseract on page: 26
+	Tesseract on page: 27
+	Tesseract on page: 28
+	Tesseract on page: 29
+	Tesseract on page: 30
+	Tesseract on page: 31
+	Tesseract on page: 32
+	Tesseract on page: 33
+	Tesseract on page: 34
+	Tesseract on page: 35
+	Tesseract on page: 36
+	Tesseract on page: 37
+  exec_task: pdftable_finder 
+	==Total:664 Errors=664 TableEmptyBodyCellError=664
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403131434532018.pdf --> para 202403131434532018.pdf:Page_idx: 11 1 <-> [(0, 1), (0, 2)]
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141142176018.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal, dvotsurekhmr, sakalmarathinormal
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:6 Errors=6 TableEmptyBodyCellError=6
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141142176018.pdf: >शासन निर्णय क्रमांक< >सुप्रमा-२०१७/प्र.क्र.६२/रस्ते-५<
+	elapsed_time:202403141142176018.pdf: 0.000079
+  exec_task: doc_translator_hf 
+    Paras: #49 Sentences: #80
+	[0]  #words: 77 #sentences: 25
+	After generate: 2 MB
+	[0]  #words: 266 #sentences: 48
+	After generate: 3 MB
+	[1]  #words: 156 #sentences: 12
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141542404618.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal, dvotsurekhmr, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:71 Errors=71 TableEmptyBodyCellError=71
+  exec_task: line_finder 
+  exec_task: para_finder 
+**** PIPEERROR IN 202403141542404618.pdf --> para 202403141542404618.pdf:Page_idx: 0 2 <-> [(0, 14)]
+#docs: 101 #processed: 4
